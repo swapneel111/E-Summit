@@ -30,7 +30,7 @@ export default function Home
     
     <div>
       <Helmet>
-      <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+      <script defer async src="https://docs.google.com/forms/d/1XbC47b8Be39CNYPusKcHVZOr6M02mT_2oLQERUG2jYU/edit"></script>
       </Helmet> 
        <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'></link>  
           <div id="main">
