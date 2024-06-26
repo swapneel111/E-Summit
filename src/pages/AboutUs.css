@@ -1,0 +1,43 @@
+.text{
+  font-weight:100;
+  font-size:8vb;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  justify-content:center;
+  align-items:center;
+  display:flex;
+  margin: 25px;
+
+  font-family: nunito;
+  font-weight: 1000;
+}
+.AboutUsCard{
+  width: 150vb;
+  height: 62vh;
+  display: flexbox;
+  position: relative;
+  left: 10%;
+  justify-content: center;
+  backdrop-filter: blur(40px) saturate(150%) ;
+  text-align: center;
+
+  z-index: 1;
+  margin: 35px;
+}
+.AboutUsCard p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2.5vb;
+   background-color: #D9AFD9;
+  background-image: linear-gradient(0deg, #d6bad6 0%, #afeef5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+}
+@media (max-width:700px){
+  .AboutUsCard{
+    width: 90vw;
+    height: 120vh;
+    left: 0%;
+  }
+}

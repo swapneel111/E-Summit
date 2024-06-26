@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding: 0;   
+}
+#main{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#video{
+  width: 100%;
+  height:100%;
+  object-fit:cover;
+  position: absolute;
+}
+
+
+#logo{
+  z-index: 1;;
+  position: center;
+  display: flex;
+  width: 100vb;
+  height: 50vh;
+}
+
+.GoldSponsor{
+display: inline-flex;
+width:100%;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.SponsorContainer{
+margin-left: 50px ;
+display: inline-flex;
+width: 240px;
+padding: 2rem;
+position: relative;
+}
+#sponsorpic{
+height:50px;
+width: 190px;
+object-fit: contain; 
+}
+
+/* General container styles */
+.card {
+  display: inline-block;
+  margin-left: 100px; /* Uniform margin around each card */
+  padding: 10px; /* Padding inside each card for inner spacing */ /* Optional border for card styling */
+  border-radius: 10px; /* Rounded corners for cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center; /* Center the content */
+  background-color: transparent; /* White background for contrast */
+}
+
+/* Styling the wrappers */
+.wrapper {
+  position: relative;
+  margin-left: 68px;
+  width: 100%;
+  padding-bottom: 100%; /* 1:1 Aspect Ratio */
+  overflow: hidden; /* Hide overflow to keep images contained */
+  border-radius: 10px; /* Match the card's border radius */
+  background-color:transparent; /* Background color for empty space */
+}
+
+/* Styling the cover images */
+.cover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Contain the image within the wrapper */
+}
+
+/* Styling the character images */
+.character {
+  margin-top: 10px; /* Margin between wrapper and character image */
+  max-width: 80px; /* Set a maximum width for the character image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Additional styling for the text above the cards */
+.text {
+  text-align: center; /* Center the text */
+  font-size: 24px; /* Adjust font size as needed */
+  margin-bottom: 20px; /* Space between text and cards */
+  font-weight: bold; /* Bold text */
+}
+
+
+#reachus{
+display: inline-flex;
+flex-wrap: wrap;
+position: relative;
+justify-content: center;
+align-content: center;
+}
+#map{
+border-radius: 35px;
+border-left: 25px ;
+position: center;
+display: inline-flex;
+justify-items: center;
+align-items: center;
+width: 185vh;
+height: 70vh;
+margin-left: 70px; 
+}
+
+.devfolio-button-iframe{
+  display:flex;
+  z-index: 3;
+  position: absolute;
+  top: 65%;
+}
+.mapcontainer{
+border-radius: 35px;
+display: inline-flex;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
+}
+.text-heading{
+  font-weight:100;
+  font-size:60px;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  justify-content:center;
+  align-items:center;
+  display:flex;
+  margin: 25px;
+  position: relative;
+  font-family: nunito;
+  font-weight: 1000;
+}
+.break-text{
+  font-weight:100;
+  font-size:20px;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  justify-content:center;
+  align-items:center;
+  display:flex;
+  margin: 25px;
+  position: relative;
+  font-family: nunito;
+  font-weight: 1000;
+}
+#bgimg{
+  display: none;
+  visibility: hidden;
+}
+@media (max-width:700px){
+#video{
+  display: none;
+  visibility: hidden;
+}
+#bgimg{
+  display: block;
+  visibility: visible;
+  width: 100%;
+  height:100%;
+  object-fit:cover;
+  position: absolute;
+}
+*{
+  overflow-x: hidden;
+}
+}

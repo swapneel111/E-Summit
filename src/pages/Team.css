@@ -1,0 +1,265 @@
+body
+{
+  font-family: 'RobotoDraft', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+#grid1{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+*
+{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h5
+{
+  margin:0px;
+  font-size:1.2em;
+  font-weight:700;
+  color: black;
+  display: inline-block;
+}
+
+p
+{
+  font-size:12px;
+}
+.center
+{
+  height:18em;
+  width:14em;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+
+/* End Non-Essential  */
+
+.property-card
+{
+  height:18em;
+  width:14em;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -ms-flex-direction:column;
+  flex-direction:column;
+  position:relative;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+  -webkit-box-shadow:  15px 15px 27px #152238, -15px -15px 27px #191919;
+  box-shadow:  15px 15px 27px #191970, -15px -15px 27px #151515
+}
+
+
+.property-image0
+{
+  height:20em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../assets/team/1.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.property-image1
+{
+  height:20em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../assets/team/2.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.property-image2
+{
+  height:20em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../assets/team/3.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.property-image3
+{
+  height:20em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../assets/team/4.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.property-image4
+{
+  height:20em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../assets/team/5.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.property-image5
+{
+  height:20em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../assets/team/6.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.property-image6
+{
+  height:20em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../assets/team/7.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.property-image7
+{
+  height:20em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../assets/team/6.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+
+/* Bottom Card Section */
+
+.property-description
+{
+  background-color: white;
+  height:0em;
+  width:14em;
+  position:absolute;
+  bottom:0em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align:center;
+ visibility: hidden;
+}
+
+/* Social Icons */
+
+.property-social-icons
+{
+  width:1em;
+  height:1em;
+  background-color:black;
+  position:absolute;
+  bottom:1em;
+  left:1em;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  
+}
+
+/* Property Cards Hover States */
+
+.property-card:hover .property-description
+{
+  height:6em;
+  padding:0px 1em;
+  visibility: visible;
+ 
+}
+.property-card:hover .property-image
+{
+  height:6em;
+}
+
+.property-card:hover .property-social-icons
+{
+  background-color:white;
+}
+
+.property-card:hover .property-social-icons:hover
+{
+  background-color:blue;
+  display: flex;
+  cursor:pointer;
+}
+
+
+
+
+.property-image-title
+{
+text-align:center;
+position:Relative;
+top:30%;
+opacity:0;
+transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+color:black;
+font-size:1.2em;
+}
+
+.property-card:hover .property-image-title
+{
+opacity:1;
+}
+
+.linklogo{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  display: flex;
+  left: 85px;
+  align-items: center;
+}

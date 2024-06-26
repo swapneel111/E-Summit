@@ -1,0 +1,12 @@
+.timer{
+    display: inline-flex;
+    width: 50vw;
+    height: 65vh;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    ._qWTcH{
+        width: 50vw;
+        padding: 5vw;    
+    }
