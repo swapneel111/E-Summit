@@ -37,19 +37,22 @@
 /* Mobile view adjustments */
 @media (max-width: 700px) {
   #video {
-    display: none;
-    visibility: hidden;
+    width: 100%;
+    height: auto; /* Adjust the height to maintain aspect ratio */
+    max-height: 100%; /* Ensure the video doesn't exceed the viewport height */
+    position: relative; /* Position it within the flow */
+    object-fit: contain; /* Ensure the video fits within its container */
   }
+
   #bgimg {
-    display: none; /* Hide the fallback image unless needed */
+    display: none; /* Keep the fallback image hidden unless it's necessary */
     visibility: hidden;
   }
 
   * {
-    overflow-x: hidden;
+    overflow-x: hidden; /* Prevent horizontal overflow */
   }
 }
-
 #logo {
   z-index: 1;
   display: flex;
@@ -196,7 +199,7 @@ margin-left: 70px;
 .devfolio-button-iframe{
   display:flex;
   z-index: 3;
-  position: absolute;
+  position: relative;
   top: 65%;
 }
 .mapcontainer{
