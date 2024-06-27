@@ -1,0 +1,203 @@
+:root {
+    --card-height: 300px;
+    --card-width: 300px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .cards{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: var(--card-width);
+    height: var(--card-height);
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5vw;
+    perspective: 2500px;
+    margin:50px;
+  }
+  
+  .cover-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0%;
+  }
+  
+  .wrapper {
+    transition: all 0.5s;
+    position: absolute;
+    width: 300px;
+    z-index: -1;
+  }
+  
+  .card:hover .wrapper {
+    transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+    box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  }
+  
+  .wrapper::before,
+  .wrapper::after {
+    content: "";
+    opacity: 0;
+    width: 100%;
+    height: 80px;
+    transition: all 0.5s;
+    position: absolute;
+    left: 0;
+  }
+  .wrapper::before {
+    top: 0;
+    height: 100%;
+    background-image: linear-gradient(
+      to top,
+      transparent 46%,
+      rgba(12, 13, 19, 0.5) 68%,
+      rgba(12, 13, 19) 97%
+    );
+  }
+  .wrapper::after {
+    bottom: 0;
+    opacity: 1;
+    background-image: linear-gradient(
+      to bottom,
+      transparent 46%,
+      rgba(12, 13, 19, 0.5) 68%,
+      rgba(12, 13, 19) 97%
+    );
+  }
+  
+  .card:hover .wrapper::before,
+  .wrapper::after {
+    opacity: 1;
+  }
+  
+  .card:hover .wrapper::after {
+    height: 120px;
+  }
+  .title {
+    width: 100%;
+    transition: transform 0.5s;
+  }
+  .card:hover .title {
+    transform: translate3d(0%, -50px, 100px);
+  }
+  
+  .character {
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .card:hover .character {
+    opacity: 1;
+    transform: translate3d(0%, -30%, 100px);
+  }
+.prizes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.img1{
+  width: 200px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 250px;
+  padding: 10px;
+  margin:20px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color:transparent;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+   background-color: #923cb5;
+  background-image:url('../assets/background/1.jpg');
+  background-position: center;
+  background-size: cover;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 25px;
+}
+.break-text{
+  font-weight:100;
+  font-size:20px;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  justify-content:center;
+  align-items:center;
+  display:flex;
+  margin: 25px;
+  position: relative;
+  font-family: nunito;
+  font-weight: 1000;
+}
+.flip-card-back > .p1{
+  font-size:3.5em;
+  color:#D4AF37;
+  
+}
+.flip-card-back > .p2{
+  font-size:3.5em;
+  color:#aaa9ad;
+}
+.flip-card-back > .p3{
+  font-size:3.5em;
+  color:#5D4E37;
+}
+.flip-card-back > p{
+  font-size:2.5em
+}
+@media (max-width:700px){
+  #bgimg{
+    object-fit: cover;
+  }
+}

@@ -8,6 +8,7 @@ import gallery from '../assets/icon/gallery.jpg'
 import timeline from '../assets/icon/timeline.jpeg'
 import { useRef } from "react";
 import { useEffect } from "react";
+import prize from "../assets/icon/prize.jpg"
 
 function Navbar(){
   const windowSize = useRef([window.innerWidth, window.innerHeight]);
@@ -36,6 +37,9 @@ function Navbar(){
         <ul>
         <li>
         <Link to="/"><div id='navbar_tray'>Home<img id='navbar_icon'src={home} alt=""/></div></Link>
+        </li>
+        <li>
+        <Link to="/Prizes"><div id='navbar_tray'>Prize<img id='navbar_icon' src={prize} alt=""/></div></Link>
         </li>
         <li>
         <Link to='/Timeline'><div id='navbar_tray'>Timeline<img id='navbar_icon' src={timeline} alt=""/></div></Link>
