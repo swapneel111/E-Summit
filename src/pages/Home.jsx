@@ -137,9 +137,9 @@ export default function Home
   </div>
   <div class="card">
     <div class="wrapper">
-      <img src={webdev} class="cover-image" alt=""/>
+      <img src={replit} class="cover-image" alt=""/>
     </div>
-    <img src={webdev} class="character" alt=""/>
+    <img src={replit} class="character" alt=""/>
   </div>
 
     <div class="text">REACH US</div>
