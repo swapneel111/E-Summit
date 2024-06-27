@@ -19,7 +19,7 @@ export default function Gallery() {
   <div class="text">GALLERY</div>
   <div class="gallery-image">
     <div class="img-box">
-    <img src={g3} alt="" />
+    <img src={g11} alt="" />
       <div class="transparent-box">
         <div class="caption">
           <p></p>
@@ -28,7 +28,7 @@ export default function Gallery() {
       </div> 
     </div>
     <div class="img-box">
-      <img src={g2} alt="" />
+      <img src={g11} alt="" />
       <div class="transparent-box">
         <div class="caption">
           <p></p>
@@ -37,7 +37,7 @@ export default function Gallery() {
       </div>
     </div>
     <div class="img-box">
-      <img src={g3} alt="" />
+      <img src={g11} alt="" />
       <div class="transparent-box">
         <div class="caption">
           <p></p>
@@ -46,7 +46,7 @@ export default function Gallery() {
       </div>
     </div>
     <div class="img-box">
-      <img src={g4} alt="" />
+      <img src={g11} alt="" />
       <div class="transparent-box">
         <div class="caption">
           <p></p>
@@ -55,7 +55,7 @@ export default function Gallery() {
       </div> 
     </div>
     <div class="img-box">
-      <img src={g5} alt="" />
+      <img src={g11} alt="" />
       <div class="transparent-box">
         <div class="caption">
           <p></p>
@@ -111,7 +111,7 @@ export default function Gallery() {
       </div> 
     </div>
     <div class="img-box">
-      <img src={g2} alt="" />
+      <img src={g11} alt="" />
       <div class="transparent-box">
         <div class="caption">
           <p></p>
