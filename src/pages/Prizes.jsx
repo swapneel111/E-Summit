@@ -19,7 +19,7 @@ export default function Prizes() {
             </div>
             <div class="flip-card-back">
               <h1 class="p2">2nd</h1>
-              <p>$300</p>
+              <p>Will be revealed</p>
             </div>
           </div>
         </div>
