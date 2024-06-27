@@ -16,10 +16,23 @@
   width: 100%;
   height: 100%;
   object-fit: cover; /* Maintain aspect ratio and cover the container */
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
 }
+
+/* Fallback background image */
+#bgimg {
+  display: none;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
 
 /* Mobile view adjustments */
 @media (max-width: 700px) {
@@ -28,15 +41,10 @@
     visibility: hidden;
   }
   #bgimg {
-    display: block;
-    visibility: visible;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
+    display: none; /* Hide the fallback image unless needed */
+    visibility: hidden;
   }
+
   * {
     overflow-x: hidden;
   }
@@ -57,8 +65,8 @@
   display: inline-block; /* Makes the div behave like a button */
   height: 44px; /* Fixed height */
   width: 312px; /* Fixed width */
-  background-color: #007BFF; /* Primary button color */
-  color: #fff; /* White text */
+  background-color: #e45a6c; /* Primary button color */
+  color: #151111; /* White text */
   border: none; /* Remove default border */
   border-radius: 8px; /* Rounded corners */
   font-size: 16px; /* Text size */
@@ -73,14 +81,14 @@
 
 /* Hover state */
 .apply-button:hover {
-  background-color: #0056b3; /* Darker shade on hover */
+  background-color: #e80d14; /* Darker shade on hover */
   transform: translateY(-2px); /* Slight lift on hover */
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
 }
 
 /* Active state */
 .apply-button:active {
-  background-color: #004085; /* Even darker on active */
+  background-color: #5b0617; /* Even darker on active */
   transform: translateY(0); /* No lift on click */
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow on active */
 }
@@ -88,7 +96,7 @@
 /* Focus state */
 .apply-button:focus {
   outline: none; /* Remove default focus outline */
-  box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5); /* Custom focus outline */
+  box-shadow: 0 0 0 4px rgba(94, 15, 20, 0.5); /* Custom focus outline */
 }
 
 
