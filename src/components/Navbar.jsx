@@ -39,9 +39,6 @@ function Navbar(){
         <Link to="/"><div id='navbar_tray'>Home<img id='navbar_icon'src={home} alt=""/></div></Link>
         </li>
         <li>
-        <Link to="/Prizes"><div id='navbar_tray'>Prize<img id='navbar_icon' src={prize} alt=""/></div></Link>
-        </li>
-        <li>
         <Link to='/Timeline'><div id='navbar_tray'>Timeline<img id='navbar_icon' src={timeline} alt=""/></div></Link>
         </li>
         <li>
