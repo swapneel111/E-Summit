@@ -27,7 +27,7 @@ export default function
            iconStyle={{ background: '#0000ff', color: '#ffffff' }}
            icon={<img src={checkin} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Check-in Starts</h3>
+          <h3 className="vertical-timeline-element-title">Event Starts</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
@@ -37,7 +37,7 @@ export default function
            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
            icon={<img src={checkin} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Check-in Ends</h3>
+          <h3 className="vertical-timeline-element-title">Registrations Start</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
@@ -77,7 +77,7 @@ export default function
            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
            icon={<img src={workshop} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Workshop 1 Starts</h3>
+          <h3 className="vertical-timeline-element-title">Quiz Starts</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
@@ -87,7 +87,7 @@ export default function
            iconStyle={{ background: '#0000ff', color: '#fff' }}
            icon={<img src={workshop} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Workshop 2 Starts</h3>
+          <h3 className="vertical-timeline-element-title">Workshop Starts</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
@@ -117,7 +117,7 @@ export default function
            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
            icon={<img src={lunch} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Dinner</h3>
+          <h3 className="vertical-timeline-element-title">Investopia starts</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
@@ -137,7 +137,7 @@ export default function
            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
            icon={<img src={minievent} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Mini Event</h3>
+          <h3 className="vertical-timeline-element-title"> Event</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
@@ -147,7 +147,7 @@ export default function
            iconStyle={{ background: '#0000ff', color: '#fff' }}
            icon={<img src={lunch} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Breakfast</h3>
+          <h3 className="vertical-timeline-element-title">Registration ends</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
@@ -157,7 +157,7 @@ export default function
            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
            icon={<img src={dead} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Soft Deadline</h3>
+          <h3 className="vertical-timeline-element-title">Lunch Break</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
@@ -167,7 +167,7 @@ export default function
            iconStyle={{ background: '#0000ff', color: '#fff' }}
            icon={<img src={dead} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Hard Deadline</h3>
+          <h3 className="vertical-timeline-element-title">E-Summit starts</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
@@ -177,7 +177,7 @@ export default function
            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
            icon={<img src={lunch} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Lunch</h3>
+          <h3 className="vertical-timeline-element-title">E-Summit starts</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
@@ -227,7 +227,7 @@ export default function
            iconStyle={{ background: '#0000ff', color: '#fff' }}
            icon={<img src={checkin} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Checkout</h3>
+          <h3 className="vertical-timeline-element-title">Event end</h3>
           </VerticalTimelineElement>
         </VerticalTimeline>
    </div>
