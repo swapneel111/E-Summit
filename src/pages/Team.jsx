@@ -52,7 +52,7 @@ export default function Team() {
     <div class="property-description">
       <h5>Spandan Sarkar </h5>
       <p>Event Head</p>
-      <a href="https://www.linkedin.com/in/satyam-choudhary-939a55235/"><img class="linklogo" src={linklogo} alt=""/></a>
+      <a href="https://www.linkedin.com/in/bengal-e-summit-32394b315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="linklogo" src={linklogo} alt=""/></a>
     </div>
     <a href="/">
       
@@ -70,7 +70,7 @@ export default function Team() {
     <div class="property-description">
       <h5>Megha Biswas</h5>
       <p>Lead</p>
-      <a href="https://www.linkedin.com/in/shrinjoychatterjee/"><img class="linklogo" src={linklogo} alt=""/></a>
+      <a href="https://www.linkedin.com/in/bengal-e-summit-32394b315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="linklogo" src={linklogo} alt=""/></a>
     </div>
     <a href="/">
     </a>
@@ -87,7 +87,7 @@ export default function Team() {
     <div class="property-description">
       <h5>Anushka Maji</h5>
       <p>PR Lead</p>
-      <a href="https://www.linkedin.com/in/venkatesh-banerjee/"><img class="linklogo" src={linklogo} alt=""/></a>
+      <a href="https://www.linkedin.com/in/bengal-e-summit-32394b315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="linklogo" src={linklogo} alt=""/></a>
     </div>
     <a href="/">
      
@@ -123,7 +123,7 @@ export default function Team() {
     <div class="property-description">
       <h5>Mayukh Mazumdar</h5>
       <p>Sponsorship Lead</p>
-      <a href="https://www.linkedin.com/in/avik-pathak-273371137/"><img class="linklogo" src={linklogo} alt=""/></a>
+      <a href="https://www.linkedin.com/in/bengal-e-summit-32394b315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="linklogo" src={linklogo} alt=""/></a>
     </div>
     <a href="/">
     </a>
