@@ -21,188 +21,188 @@ export default function
         <VerticalTimeline>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
-           contentStyle={{ background: '#0000ff', color: '#fff' }}
+           contentStyle={{ background: '#fff', color: '#ffa07a' }}
            contentArrowStyle={{ borderRight: '14px solid  #0000ff' }}
            date="8:00 AM"
-           iconStyle={{ background: '#0000ff', color: '#ffffff' }}
+           iconStyle={{ background: '#ffa07a', color: '#ffffff' }}
            icon={<img src={checkin} style={{height:'100%',width:'100%'}} alt=""/>}
           >
           <h3 className="vertical-timeline-element-title">Event Starts</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
-           contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+           contentStyle={{ background: '#ffa07a', color: '#fff' }}
            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
            date="9:00 AM"
-           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+           iconStyle={{ background: '#fff', color: '#ffa07a' }}
            icon={<img src={checkin} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Registrations Start</h3>
+          <h3 className="vertical-timeline-element-title">Registration Starts</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
-           contentStyle={{ background: '#0000ff', color: '#fff' }}
-           contentArrowStyle={{ borderRight: '14px solid  #0000fF' }}
+           contentStyle={{ background: '#ffa07a', color: '#fff' }}
+           contentArrowStyle={{ borderRight: '#ffa07a' }}
            date="9:30 AM"
-           iconStyle={{ background: '#0000fF', color: '#ffffff' }}
+           iconStyle={{ background: '#ffa07a', color: '#fff' }}
            icon={<img src={inaug} style={{height:'100%',width:'100%'}} alt=""/>}
           >
           <h3 className="vertical-timeline-element-title">Inaguration</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
-           contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+           contentStyle={{ background: '#ffa07a', color: '#fff' }}
+           contentArrowStyle={{ borderRight: '#ffa07a' }}
            date="10:00 AM"
-           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+           iconStyle={{ background: '#ffa07a', color: '#fff' }}
            icon={<img src={hack} style={{height:'100%',width:'100%'}} alt=""/>}
           >
           <h3 className="vertical-timeline-element-title">Start-Up Expo Starts</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
-           contentStyle={{ background: '#0000ff', color: '#fff' }}
-           contentArrowStyle={{ borderRight: '7px solid  #0000ff' }}
+           contentStyle={{ background: '#ffa07a', color: '#fff' }}
+           contentArrowStyle={{ borderRight: '#ffa07a' }}
            date="1:00 PM"
-           iconStyle={{ background: '#0000ff', color: '#fff' }}
+           iconStyle={{ background: '#fff', color: '#ffa07a' }}
            icon={<img src={lunch} style={{height:'100%',width:'100%'}} alt=""/>}
           >
           <h3 className="vertical-timeline-element-title">Lunch</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
-           contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+           contentStyle={{ background: '#ffa07a', color: '#fff' }}
            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
            date="2:30 PM"
-           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+           iconStyle={{ background: '#ffa07a', color: '#fff' }}
            icon={<img src={workshop} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Quiz Starts</h3>
+          <h3 className="vertical-timeline-element-title">Conference Starts</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
-           contentStyle={{ background: '#0000ff', color: '#fff' }}
+           contentStyle={{ background: '#ffa07a', color: '#fff' }}
            contentArrowStyle={{ borderRight: '7px solid  #0000ff' }}
            date="4:00 PM"
-           iconStyle={{ background: '#0000ff', color: '#fff' }}
+           iconStyle={{ background: '#ffa07a', color: '#fff' }}
            icon={<img src={workshop} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Workshop Starts</h3>
+          <h3 className="vertical-timeline-element-title">Keynote session Starts</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
-           contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+           contentStyle={{ background: '#fff', color: '#ffa07a' }}
            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
            date="6:00 PM"
-           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+           iconStyle={{ background: '#ffa07a', color: '#fff' }}
            icon={<img src={workshop} style={{height:'100%',width:'100%'}} alt=""/>}
           >
           <h3 className="vertical-timeline-element-title">Keynote Session Starts</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
-           contentStyle={{ background: '#0000ff', color: '#fff' }}
-           contentArrowStyle={{ borderRight: '7px solid  #0000ff' }}
+           contentStyle={{ background: '#fff', color: '#ffa07a' }}
+           contentArrowStyle={{ borderRight: '#ffa07a' }}
            date="2:00 PM"
-           iconStyle={{ background: '#0000ff', color: '#fff' }}
+           iconStyle={{ background: '#fff', color: '#ffa07a' }}
            icon={<img src={workshop} style={{height:'100%',width:'100%'}} alt=""/>}
           >
           <h3 className="vertical-timeline-element-title">Content Creator Enclave Starts</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
-           contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+           contentStyle={{ background: '#ffa07a', color: '#fff' }}
+           contentArrowStyle={{ borderRight: '#ffa07a' }}
            date="4:00 PM"
-           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+           iconStyle={{ background: '#ffa07a', color: '#fff' }}
            icon={<img src={lunch} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Investopia starts</h3>
+          <h3 className="vertical-timeline-element-title">Dinner</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
            contentStyle={{ background: '#0000ff', color: '#fff' }}
-           contentArrowStyle={{ borderRight: '7px solid  #0000ff' }}
+           contentArrowStyle={{ borderRight: '#ffa07a' }}
            date="12:00 PM"
-           iconStyle={{ background: '#0000ff', color: '#fff' }}
+           iconStyle={{ background: '#fff', color: '#ffa07a' }}
            icon={<img src={workshop} style={{height:'100%',width:'100%'}} alt=""/>}
           >
           <h3 className="vertical-timeline-element-title">Workshop</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
-           contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+           contentStyle={{ background: '#ffa07a', color: '#fff' }}
+           contentArrowStyle={{ borderRight: '#ffa07a' }}
            date="3:00 AM"
-           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+           iconStyle={{ background: '#ffa07a', color: '#fff' }}
            icon={<img src={minievent} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title"> Event</h3>
+          <h3 className="vertical-timeline-element-title">Mini Event</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
-           contentStyle={{ background: '#0000ff', color: '#fff' }}
-           contentArrowStyle={{ borderRight: '7px solid  #0000ff' }}
+           contentStyle={{ background: '#ffa07a', color: '#fff' }}
+           contentArrowStyle={{ borderRight: '#ffa07a' }}
            date="8:00 AM"
-           iconStyle={{ background: '#0000ff', color: '#fff' }}
+           iconStyle={{ background: '#ffa07a', color: '#fff' }}
            icon={<img src={lunch} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Registration ends</h3>
+          <h3 className="vertical-timeline-element-title">Reveal soon</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
-           contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+           contentStyle={{ background: '#ffa07a', color: '#fff' }}
            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
            date="12:00 AM"
-           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+           iconStyle={{ background: '#ffa07a', color: '#fff' }}
            icon={<img src={dead} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Lunch Break</h3>
+          <h3 className="vertical-timeline-element-title">Revealing soon</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
-           contentStyle={{ background: '#0000ff', color: '#fff' }}
+           contentStyle={{ background: '#fff', color: '#ffa07a' }}
            contentArrowStyle={{ borderRight: '7px solid  #0000ff' }}
            date="12:30 AM"
-           iconStyle={{ background: '#0000ff', color: '#fff' }}
+           iconStyle={{ background: '#fff', color: '#ffa07a' }}
            icon={<img src={dead} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">E-Summit starts</h3>
+          <h3 className="vertical-timeline-element-title">Revealing soon</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
-           contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+           contentStyle={{ background: '#ffa07a', color: '#fff' }}
+           contentArrowStyle={{ borderRight: '#ffa07a' }}
            date="1:00 PM"
-           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+           iconStyle={{ background: '#ffa07a', color: '#fff' }}
            icon={<img src={lunch} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">E-Summit starts</h3>
+          <h3 className="vertical-timeline-element-title">Lunch</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
-           contentStyle={{ background: '#0000ff', color: '#fff' }}
-           contentArrowStyle={{ borderRight: '7px solid  #0000ff' }}
+           contentStyle={{ background: '#fff', color: '#ffa07a' }}
+           contentArrowStyle={{ borderRight: '#ffa07a' }}
            date="1:30 AM"
-           iconStyle={{ background: '#0000ff', color: '#fff' }}
+           iconStyle={{ background: '#fff', color: '#ffa07a' }}
            icon={<img src={judge} style={{height:'100%',width:'100%'}} alt=""/>}
           >
           <h3 className="vertical-timeline-element-title">Judging Starts</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
-           contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-           contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+           contentStyle={{ background: '#fff', color: '#ffa07a' }}
+           contentArrowStyle={{ borderRight: '#ffa07a' }}
            date="3:00 PM"
-           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+           iconStyle={{ background: '#ffa07a', color: '#fff' }}
            icon={<img src={judge} style={{height:'100%',width:'100%'}} alt=""/>}
           >
           <h3 className="vertical-timeline-element-title">Judging Ends</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
-           contentStyle={{ background: '#0000ff', color: '#fff' }}
-           contentArrowStyle={{ borderRight: '7px solid  #0000ff' }}
+           contentStyle={{ background: '#ffa07a', color: '#fff' }}
+           contentArrowStyle={{ borderRight: '#ffa07a' }}
            date="3:00 PM"
            iconStyle={{ background: '#0000ff', color: '#fff' }}
            icon={<img src={closing} style={{height:'100%',width:'100%'}} alt=""/>}
@@ -211,23 +211,23 @@ export default function
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
-           contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+           contentStyle={{ background: '#ffa07a', color: '#fff' }}
            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
            date="3:30 PM"
-           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+           iconStyle={{ background: '#ffa07a', color: '#fff' }}
            icon={<img src={minievent} style={{height:'100%',width:'100%'}} alt=""/>}
           >
           <h3 className="vertical-timeline-element-title">Prize Distribution</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
-           contentStyle={{ background: '#0000ff', color: '#fff' }}
+           contentStyle={{ background: '#fff', color: '#ffa07a' }}
            contentArrowStyle={{ borderRight: '7px solid  #0000ff' }}
            date="4:00 PM"
-           iconStyle={{ background: '#0000ff', color: '#fff' }}
+           iconStyle={{ background: '#ffa07a', color: '#fff' }}
            icon={<img src={checkin} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Event end</h3>
+          <h3 className="vertical-timeline-element-title">Checkout</h3>
           </VerticalTimelineElement>
         </VerticalTimeline>
    </div>
