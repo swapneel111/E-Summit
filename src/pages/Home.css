@@ -78,10 +78,11 @@
   text-decoration: underline; /* No underline */
   transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-image: linear-gradient(45deg, #e45a6c, #ebb0b2);
   /* Adjust positioning */
   position: absolute; /* Use relative positioning */
-  top: 550px; /* Move the button 10px down */
-  left: 670px; /* Move the button 10px left */
+  top: 50px; /* Move the button 10px down */
+  left: 25px; /* Move the button 10px left */
 }
 
 /* Hover state */
