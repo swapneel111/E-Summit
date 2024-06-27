@@ -161,7 +161,7 @@ object-fit: contain;
 /* Styling the character images */
 .character {
   margin-top: 10px; /* Margin between wrapper and character image */
-  max-width: 110px; /* Set a maximum width for the character image */
+  max-width: 120px; /* Set a maximum width for the character image */
   height: auto; /* Maintain aspect ratio */
 }
 
