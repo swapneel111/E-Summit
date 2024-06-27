@@ -30,21 +30,24 @@ export default function Home
     
     <div>
       <Helmet>
-      <script defer async src="https://docs.google.com/forms/d/1XbC47b8Be39CNYPusKcHVZOr6M02mT_2oLQERUG2jYU/edit"></script>
+      <script defer async src="https://docs.google.com/formsforms/d/1XbC47b8Be39CNYPusKcHVZOr6M02mT_2oLQERUG2jYU/edit"></script>
       </Helmet> 
        <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'></link>  
           <div id="main">
         <img id='bgimg' src={bgimg}></img>
         <video id="video" src={bganmation} autoPlay loop muted/>
         
-        <div 
-	class="apply-button" 
-	data-hackathon-slug={"Bengal-E-Summit"} 
-	data-button-theme={"light"}
-	style={{height: '114px',width: '52px'}}
->REGISTER NOW</div>     
-        </div>
-        <img id="bridge" src={bridge} alt=""/>
+        <a
+          href="https://docs.google.com/forms/d/1XbC47b8Be39CNYPusKcHVZOr6M02mT_2oLQERUG2jYU/viewform?edit_requested=true" // Replace with your actual apply now URL
+          className="apply-button"
+          data-hackathon-slug={"Bengal-E-Summit"}
+          data-button-theme={"light"}
+          style={{ height: '44px', width: '172px' }}
+        >
+          REGISTER NOW
+        </a>
+      </div>
+      <img id="bridge" src={bridge} alt="" />
     <AboutUs></AboutUs>    
     <div id="divback">
     <div class="text-heading">OUR SPONSORS</div>

@@ -62,21 +62,26 @@
 
 
 .apply-button {
+  z-index: 1;
   display: inline-block; /* Makes the div behave like a button */
-  height: 44px; /* Fixed height */
-  width: 312px; /* Fixed width */
+  height: 114px; /* Fixed height */
+  width: 112px; /* Fixed width */
   background-color: #e45a6c; /* Primary button color */
   color: #151111; /* White text */
   border: none; /* Remove default border */
   border-radius: 8px; /* Rounded corners */
-  font-size: 16px; /* Text size */
+  font-size: 18px; /* Text size */
   font-weight: bold; /* Bold text */
   text-align: center; /* Center the text */
   line-height: 44px; /* Center text vertically */
   cursor: pointer; /* Pointer cursor on hover */
-  text-decoration: none; /* No underline */
+  text-decoration: underline; /* No underline */
   transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  /* Adjust positioning */
+  position: absolute; /* Use relative positioning */
+  top: 550px; /* Move the button 10px down */
+  left: 670px; /* Move the button 10px left */
 }
 
 /* Hover state */
