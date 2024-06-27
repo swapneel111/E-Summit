@@ -140,11 +140,11 @@ object-fit: contain;
 /* Styling the wrappers */
 .wrapper {
   position: relative;
-  margin-left: 68px;
+  margin-left: 66px;
   width: 100%;
   padding-bottom: 100%; /* 1:1 Aspect Ratio */
   overflow: hidden; /* Hide overflow to keep images contained */
-  border-radius: 10px; /* Match the card's border radius */
+  border-radius: 2px; /* Match the card's border radius */
   background-color:transparent; /* Background color for empty space */
 }
 
