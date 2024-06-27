@@ -65,41 +65,9 @@ export default function Home
     <br/>
 
     <div class="text">GOLD</div>
-    <div class="GoldSponsor">
-    <div class="SponsorContainer">
-      <a href="https://devfolio.co/">
-        <img id="sponsorpic" src={devfolio} alt=""/>
-      </a>
-    </div>
-    <div class="SponsorContainer">
-      <a href="https://polygon.technology/">
-        <img id="sponsorpic" src={polygon} alt=""/>
-      </a>
-    </div>
-    </div>
-    <div class="text">SILVER</div>
-    <div class="GoldSponsor">
-    <div class="SponsorContainer">
-      <a href="https://replit.com/">
-        <img id="sponsorpic" src={replit} alt=""/>
-      </a>
-    </div>
-    <div class="SponsorContainer">
-      <a href="https://quine.sh/?utm_source=sytronix">
-        <img id="sponsorpic" src={quine} alt=""/>
-      </a>
-    </div>
-    <div class="SponsorContainer">
-      <a href="https://solana.com/">
-        <img id="sponsorpic" src={solana} alt=""/>
-      </a>
-    </div>
-    <div class="SponsorContainer">
-      <a href="https://filecoin.io/">
-        <img id="sponsorpic" src={filecoin} alt=""/>
-      </a>
-    </div> 
-    </div>
+    <h3 class="break-text">-- // &nbsp; Will be added later &nbsp; \\ -- </h3> 
+    <br/>
+      
     <div class="text">BRONZE</div>
 
     <h3 class="break-text">-- // &nbsp; Will be added later &nbsp; \\ -- </h3> 
