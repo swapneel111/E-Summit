@@ -16,7 +16,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover; /* Maintain aspect ratio and cover the container */
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
 }
@@ -57,7 +57,7 @@
   display: inline-block; /* Makes the div behave like a button */
   height: 44px; /* Fixed height */
   width: 312px; /* Fixed width */
-  background-color: #ee485b; /* Primary button color */
+  background-color: #007BFF; /* Primary button color */
   color: #fff; /* White text */
   border: none; /* Remove default border */
   border-radius: 8px; /* Rounded corners */
@@ -167,58 +167,31 @@ position: relative;
 justify-content: center;
 align-content: center;
 }
-#map {
-  border-radius: 35px;
-  /* border-left: 25px; */
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%; /* Use relative width */
-  max-width: 500vh; /* Set a maximum width for larger screens */
-  height: auto; /* Adjust height automatically */
-  aspect-ratio: 16 / 9; /* Maintain aspect ratio */
-  margin: 20px auto; /* Center horizontally and add vertical margin */
-  overflow: hidden; /* Prevent content overflow */
-  position: relative;
+#map{
+border-radius: 35px;
+border-left: 25px ;
+position: center;
+display: inline-flex;
+justify-items: center;
+align-items: center;
+width: 185vh;
+height: 70vh;
+margin-left: 70px; 
 }
 
-
-.devfolio-button-iframe {
-  display: flex;
+.devfolio-button-iframe{
+  display:flex;
   z-index: 3;
   position: absolute;
   top: 65%;
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%, -50%); /* Adjust positioning to the center */
 }
-
-.mapcontainer {
-  border-radius: 35px;
-  display: flex; /* Use flex for better responsiveness */
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  width: 100%; /* Full width of the container */
-  max-width: 100vh ;
-  margin: 0 auto; /* Center the container */
-  position: relative;
+.mapcontainer{
+border-radius: 35px;
+display: inline-flex;
+flex-wrap: wrap;
+justify-content: center;
+align-content: center;
 }
-
-@media (max-width: 700px) {
-  #map {
-    width: 90vw; /* Set a more manageable width for mobile */
-    height: auto; /* Adjust height automatically */
-    max-width: none; /* Remove the max-width constraint */
-  }
-}
-
-.mapcontainer {
-  padding: 10px; /* Add some padding for mobile */
-  width: 100%; /* Full width for mobile */
-  margin: 0; /* Remove additional margins */
-}
-
-
 .text-heading{
   font-weight:100;
   font-size:60px;
