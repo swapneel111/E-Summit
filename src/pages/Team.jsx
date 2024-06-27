@@ -69,7 +69,7 @@ export default function Team() {
       </div></a>
     <div class="property-description">
       <h5>Megha Biswas</h5>
-      <p>Lead</p>
+      <p>Event Head</p>
       <a href="https://www.linkedin.com/in/bengal-e-summit-32394b315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="linklogo" src={linklogo} alt=""/></a>
     </div>
     <a href="/">
