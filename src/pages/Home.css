@@ -16,7 +16,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover; /* Maintain aspect ratio and cover the container */
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
 }
@@ -28,7 +28,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
 }
