@@ -20,7 +20,7 @@ import ar from '../assets/logos/ar.png'
 import cloud from '../assets/logos/cloud.jpg'
 import web3 from '../assets/logos/web3.png'
 import webdev from '../assets/logos/web dev.png'
-import quine from '../assets/sponsors/Quine.svg'
+import quine from '../assets/logos/nasscom.png
 import Faqs from './faqs'
 import bgimg from '../assets/background/bg.jpg'
 
@@ -137,9 +137,9 @@ export default function Home
   </div>
   <div class="card">
     <div class="wrapper">
-      <img src={webdev} class="cover-image" alt=""/>
+      <img src={quine} class="cover-image" alt=""/>
     </div>
-    <img src={webdev} class="character" alt=""/>
+    <img src={quine} class="character" alt=""/>
   </div>
 
     <div class="text">REACH US</div>
