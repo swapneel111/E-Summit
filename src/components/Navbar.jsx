@@ -8,7 +8,6 @@ import gallery from '../assets/icon/gallery.jpg'
 import timeline from '../assets/icon/timeline.jpeg'
 import { useRef } from "react";
 import { useEffect } from "react";
-import prize from "../assets/icon/prize.jpg"
 
 function Navbar(){
   const windowSize = useRef([window.innerWidth, window.innerHeight]);
