@@ -22,7 +22,7 @@ import web3 from '../assets/logos/web3.png'
 import webdev from '../assets/logos/web dev.png'
 import quine from '../assets/sponsors/Quine.svg'
 import Faqs from './faqs'
-import bgimg from '../assets/background/bg.png'
+import bgimg from '../assets/background/bg.jpg'
 
 export default function Home
 () {
