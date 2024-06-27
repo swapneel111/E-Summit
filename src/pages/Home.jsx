@@ -41,8 +41,8 @@ export default function Home
 	class="apply-button" 
 	data-hackathon-slug={"Bengal-E-Summit"} 
 	data-button-theme={"light"}
-	style={{height: '44px',width: '312px'}}
-></div>     
+	style={{height: '54px',width: '112px'}}
+>REGISTER NOW</div>     
         </div>
         <img id="bridge" src={bridge} alt=""/>
     <AboutUs></AboutUs>    
