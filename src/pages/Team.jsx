@@ -140,7 +140,7 @@ export default function Team() {
     <div class="property-description">
       <h5>Anuran De</h5>
       <p>Database and Logistics Lead</p>
-      <a href="https://www.linkedin.com/in/bengal-e-summit-32394b315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="linklogo" src={linklogo} alt=""/></a>
+      <a href="https://www.linkedin.com/in/avik-pathak-273371137/"><img class="linklogo" src={linklogo} alt=""/></a>
     </div>
     <a href="/">
     </a>
@@ -157,7 +157,7 @@ export default function Team() {
     <div class="property-description">
       <h5>Saranya Chattopadhyay</h5>
       <p>Corporate Relations Lead</p>
-      <a href="https://www.linkedin.com/in/bengal-e-summit-32394b315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="linklogo" src={linklogo} alt=""/></a>
+      <a href="https://www.linkedin.com/in/avik-pathak-273371137/"><img class="linklogo" src={linklogo} alt=""/></a>
     </div>
     <a href="/">
     </a>
@@ -174,7 +174,7 @@ export default function Team() {
     <div class="property-description">
       <h5>Sayantika Neogi</h5>
       <p>Guest Relations</p>
-      <a href="https://www.linkedin.com/in/bengal-e-summit-32394b315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="linklogo" src={linklogo} alt=""/></a>
+      <a href="https://www.linkedin.com/in/avik-pathak-273371137/"><img class="linklogo" src={linklogo} alt=""/></a>
     </div>
     <a href="/">
     </a>
@@ -191,7 +191,7 @@ export default function Team() {
     <div class="property-description">
       <h5>Prerona Paul</h5>
       <p>PR Lead</p>
-      <a href="https://www.linkedin.com/in/bengal-e-summit-32394b315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="linklogo" src={linklogo} alt=""/></a>
+      <a href="https://www.linkedin.com/in/avik-pathak-273371137/"><img class="linklogo" src={linklogo} alt=""/></a>
     </div>
     <a href="/">
     </a>
@@ -208,7 +208,7 @@ export default function Team() {
     <div class="property-description">
       <h5>Rajnandini Ghosh</h5>
       <p>Corporate Relations</p>
-      <a href="https://www.linkedin.com/in/bengal-e-summit-32394b315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="linklogo" src={linklogo} alt=""/></a>
+      <a href="https://www.linkedin.com/in/avik-pathak-273371137/"><img class="linklogo" src={linklogo} alt=""/></a>
     </div>
     <a href="/">
     </a>
