@@ -129,7 +129,91 @@ export default function Team() {
     </a>
   </div>
 </div>
-       
+<div class="center">
+  <div class="property-card">
+    <a href="/">
+      <div class="property-image7">
+        <div class="property-image-title">
+        
+        </div>
+      </div></a>
+    <div class="property-description">
+      <h5>Anuran De</h5>
+      <p>Database and Logistics Lead</p>
+      <a href="https://www.linkedin.com/in/avik-pathak-273371137/"><img class="linklogo" src={linklogo} alt=""/></a>
+    </div>
+    <a href="/">
+    </a>
+  </div>
+</div>
+<div class="center">
+  <div class="property-card">
+    <a href="/">
+      <div class="property-image8">
+        <div class="property-image-title">
+        
+        </div>
+      </div></a>
+    <div class="property-description">
+      <h5>Saranya Chattopadhyay</h5>
+      <p>Corporate Relations Lead</p>
+      <a href="https://www.linkedin.com/in/avik-pathak-273371137/"><img class="linklogo" src={linklogo} alt=""/></a>
+    </div>
+    <a href="/">
+    </a>
+  </div>
+</div>
+<div class="center">
+  <div class="property-card">
+    <a href="/">
+      <div class="property-image9">
+        <div class="property-image-title">
+        
+        </div>
+      </div></a>
+    <div class="property-description">
+      <h5>Sayantika Neogi</h5>
+      <p>Guest Relations</p>
+      <a href="https://www.linkedin.com/in/avik-pathak-273371137/"><img class="linklogo" src={linklogo} alt=""/></a>
+    </div>
+    <a href="/">
+    </a>
+  </div>
+</div>
+<div class="center">
+  <div class="property-card">
+    <a href="/">
+      <div class="property-image10">
+        <div class="property-image-title">
+        
+        </div>
+      </div></a>
+    <div class="property-description">
+      <h5>Prerona Paul</h5>
+      <p>PR Lead</p>
+      <a href="https://www.linkedin.com/in/avik-pathak-273371137/"><img class="linklogo" src={linklogo} alt=""/></a>
+    </div>
+    <a href="/">
+    </a>
+  </div>
+</div>
+<div class="center">
+  <div class="property-card">
+    <a href="/">
+      <div class="property-image11">
+        <div class="property-image-title">
+        
+        </div>
+      </div></a>
+    <div class="property-description">
+      <h5>Rajnandini Ghosh</h5>
+      <p>Corporate Relations</p>
+      <a href="https://www.linkedin.com/in/avik-pathak-273371137/"><img class="linklogo" src={linklogo} alt=""/></a>
+    </div>
+    <a href="/">
+    </a>
+  </div>
+</div>     
   
 </div>
     </div>
