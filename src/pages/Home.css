@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden; /* Prevents overflow on smaller screens */
+  /*  overflow: hidden; /* Prevents overflow on smaller screens */
 }
 
 #video {
@@ -35,7 +35,7 @@
 
 
 /* Mobile view adjustments */
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   #video {
     width: 100%;
     height: auto; /* Adjust the height to maintain aspect ratio */
