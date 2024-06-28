@@ -37,9 +37,8 @@
 /* Mobile view adjustments */
 @media (max-width: 700px) {
   #video {
-    width: 90vw;
-    height: 120vh;
-    left: 0%; /* Adjust the height to maintain aspect ratio */
+    width: 100%;
+    height: auto; /* Adjust the height to maintain aspect ratio */
     max-height: 100%; /* Ensure the video doesn't exceed the viewport height */
     position: relative; /* Position it within the flow */
     object-fit: contain; /* Ensure the video fits within its container */
