@@ -137,7 +137,7 @@ export default function
            iconStyle={{ background: '#ffa07a', color: '#fff' }}
            icon={<img src={minievent} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Mini Event</h3>
+          <h3 className="vertical-timeline-element-title">Reveal soon</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
@@ -177,7 +177,7 @@ export default function
            iconStyle={{ background: '#ffa07a', color: '#fff' }}
            icon={<img src={lunch} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Lunch</h3>
+          <h3 className="vertical-timeline-element-title">Revealing soon</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
@@ -187,7 +187,7 @@ export default function
            iconStyle={{ background: '#fff', color: '#ffa07a' }}
            icon={<img src={judge} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Judging Starts</h3>
+          <h3 className="vertical-timeline-element-title">Revealing soon</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
@@ -197,7 +197,7 @@ export default function
            iconStyle={{ background: '#ffa07a', color: '#fff' }}
            icon={<img src={judge} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Judging Ends</h3>
+          <h3 className="vertical-timeline-element-title">Revealing soon</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
@@ -207,7 +207,7 @@ export default function
            iconStyle={{ background: '#0000ff', color: '#fff' }}
            icon={<img src={closing} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Closing Ceremony</h3>
+          <h3 className="vertical-timeline-element-title">Revealing soon</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
@@ -217,7 +217,7 @@ export default function
            iconStyle={{ background: '#ffa07a', color: '#fff' }}
            icon={<img src={minievent} style={{height:'100%',width:'100%'}} alt=""/>}
           >
-          <h3 className="vertical-timeline-element-title">Prize Distribution</h3>
+          <h3 className="vertical-timeline-element-title">Revealing soon</h3>
           </VerticalTimelineElement>
           <VerticalTimelineElement
            className="vertical-timeline-element--work"
