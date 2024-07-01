@@ -67,6 +67,10 @@ export default function Home
     <div class="text">GOLD</div>
     <h3 class="break-text">-- // &nbsp; Will be added later &nbsp; \\ -- </h3> 
     <br/>
+
+    <div class="text">SILVER</div>
+    <h3 class="break-text">-- // &nbsp; Will be added later &nbsp; \\ -- </h3> 
+    <br/>
       
     <div class="text">BRONZE</div>
 
