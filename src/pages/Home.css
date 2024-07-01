@@ -65,47 +65,100 @@
 
 
 .apply-button {
-  z-index: 1;
-  display: inline-block; /* Makes the div behave like a button */
-  height: 114px; /* Fixed height */
-  width: 112px; /* Fixed width */
-  background-color: #e45a6c; /* Primary button color */
-  color: #151111; /* White text */
-  border: none; /* Remove default border */
-  border-radius: 8px; /* Rounded corners */
-  font-size: 18px; /* Text size */
-  font-weight: bold; /* Bold text */
-  text-align: center; /* Center the text */
-  line-height: 44px; /* Center text vertically */
-  cursor: pointer; /* Pointer cursor on hover */
-  text-decoration: underline; /* No underline */
-  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  background-image: linear-gradient(45deg, #e45a6c, #ebb0b2);
-  /* Adjust positioning */
-  position: absolute; /* Use relative positioning */
-  top: 50px; /* Move the button 10px down */
-  left: 25px; /* Move the button 10px left */
+  --border-color: linear-gradient(-45deg, #ffae00, #7e03aa, #00fffb);
+  --border-width: 0.125em;
+  --curve-size: 0.5em;
+  --blur: 30px;
+  --bg: #080312;
+  --color: #afffff;
+  color: var(--color);
+  cursor: pointer;
+  position: relative;
+  isolation: isolate;
+  display: inline-grid;
+  place-content: center;
+  padding: 0.5em 1.5em;
+  font-size: 17px;
+  border: 0;
+  text-transform: uppercase;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+  clip-path: polygon(
+    /* Top-left */ 0% var(--curve-size),
+    var(--curve-size) 0,
+    /* top-right */ 100% 0,
+    100% calc(100% - var(--curve-size)),
+    /* bottom-right 1 */ calc(100% - var(--curve-size)) 100%,
+    /* bottom-right 2 */ 0 100%
+  );
+  transition: color 250ms;
 }
 
-/* Hover state */
-.apply-button:hover {
-  background-color: #e80d14; /* Darker shade on hover */
-  transform: translateY(-2px); /* Slight lift on hover */
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+.apply-button::after,
+.apply-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
 }
 
-/* Active state */
-.apply-button:active {
-  background-color: #5b0617; /* Even darker on active */
-  transform: translateY(0); /* No lift on click */
-  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1); /* Reduced shadow on active */
+.apply-button::before {
+  background: var(--border-color);
+  background-size: 300% 300%;
+  animation: move-bg7234 5s ease infinite;
+  z-index: -2;
 }
 
-/* Focus state */
-.apply-button:focus {
-  outline: none; /* Remove default focus outline */
-  box-shadow: 0 0 0 4px rgba(94, 15, 20, 0.5); /* Custom focus outline */
+@keyframes move-bg7234 {
+  0% {
+    background-position: 31% 0%;
+  }
+
+  50% {
+    background-position: 70% 100%;
+  }
+
+  100% {
+    background-position: 31% 0%;
+  }
+}
+
+.apply-button::after {
+  background: var(--bg);
+  z-index: -1;
+  clip-path: polygon(
+    /* Top-left */ var(--border-width)
+      calc(var(--curve-size) + var(--border-width) * 0.5),
+    calc(var(--curve-size) + var(--border-width) * 0.5) var(--border-width),
+    /* top-right */ calc(100% - var(--border-width)) var(--border-width),
+    calc(100% - var(--border-width))
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+    /* bottom-right 1 */
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+      calc(100% - var(--border-width)),
+    /* bottom-right 2 */ var(--border-width) calc(100% - var(--border-width))
+  );
+  transition: clip-path 500ms;
+}
+
+.apply-button:where(:hover, :focus)::after {
+  clip-path: polygon(
+    /* Top-left */ calc(100% - var(--border-width))
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+    calc(100% - var(--border-width)) var(--border-width),
+    /* top-right */ calc(100% - var(--border-width)) var(--border-width),
+    calc(100% - var(--border-width))
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+    /* bottom-right 1 */
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+      calc(100% - var(--border-width)),
+    /* bottom-right 2 */
+      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+      calc(100% - var(--border-width))
+  );
+  transition: 200ms;
+}
+
+.apply-button:where(:hover, :focus) {
+  color: #fff;
 }
 
 
