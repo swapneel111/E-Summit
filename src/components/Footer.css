@@ -5,69 +5,70 @@
 	right: 20px;
 	background-color: #333;
 	color: #fff;
-	padding: 10px;
+	padding: 15px; /* Adjusted padding for larger size */
 	border-radius: 50%;
-	font-size: 40px;
+	font-size: 50px; /* Increased from 40px */
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	z-index: 1000;
 	transition: transform 0.3s ease-in-out;
-  }
-  
-  .sticky-icon:hover {
+}
+
+.sticky-icon:hover {
 	transform: scale(1.1);
-  }
-  
-  /* Footer Container Styling */
-  .footer-container {
+}
+
+/* Footer Container Styling */
+.footer-container {
 	background-color:transparent;
 	color: #fff;
 	padding: 30px 20px;
 	text-align: center;
-  }
-  
-  /* Footer Links Styling */
-  .footer-links {
+}
+
+/* Footer Links Styling */
+.footer-links {
 	display: flex;
 	justify-content: center;
 	margin-top: 20px;
-  }
-  
-  .footer-links a {
+}
+
+.footer-links a {
 	color: #ccc;
 	text-decoration: none;
-	font-size: 16px;
+	font-size: 18px; /* Slightly increased for better readability */
 	margin: 0 15px;
 	transition: color 0.3s ease;
-  }
-  
-  .footer-links a:hover {
+}
+
+.footer-links a:hover {
 	color: #fbc2eb; /* Highlight color on hover */
-  }
-  
-  /* Social Icons Styling */
-  .social-icons {
+}
+
+/* Social Icons Styling */
+.social-icons {
 	display: flex;
 	justify-content: center;
 	margin-top: 20px;
-  }
-  
-  .social-icons a {
+}
+
+.social-icons a {
 	color: #ccc;
 	text-decoration: none;
-	font-size: 40px;
+	font-size: 50px; /* Increased from 40px */
 	margin: 0 10px;
 	transition: color 0.3s ease;
-  }
-  
-  .social-icons a:hover {
-	color: #fbc2eb; /* Highlight color on hover */
-  }
-  .social-link {
-    display: inline-block;
-    margin: 0 5px;
-  }
+}
 
-  .social-link svg {
-    width: 10px;
-    height: 15px;
-  }
+.social-icons a:hover {
+	color: #fbc2eb; /* Highlight color on hover */
+}
+
+.social-link {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.social-link svg {
+	width: 30px; /* Increased from 10px */
+	height: 30px; /* Increased from 15px */
+}
