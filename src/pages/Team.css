@@ -230,6 +230,20 @@ p
   background-size:cover;
   background-repeat:no-repeat;
 }
+.property-image13
+{
+  height:20em;
+  width:14em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  -webkit-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-image:url('../assets/team/aahana.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+}
 .property-image12
 {
   height:20em;
