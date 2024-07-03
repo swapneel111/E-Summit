@@ -19,51 +19,26 @@
 
 /* Footer Container Styling */
 .footer-container {
-	background-color: transparent;
+	background-color:transparent;
 	color: #fff;
 	padding: 20px 10px;
 	text-align: center;
-	display: flex;
-	flex-direction: column; /* Ensures content stacks vertically */
-	align-items: center; /* Centers content horizontally */
-}
-
-/* Footer Links Styling */
-.footer-links {
-	display: flex;
-	justify-content: center;
-	margin-top: 20px;
-}
-
-.footer-links a {
-	color: #ccc;
-	text-decoration: none;
-	font-size: 18px; /* Slightly increased for better readability */
-	margin: 0 15px;
-	transition: color 0.3s ease;
-}
-
-.footer-links a:hover {
-	color: #fbc2eb; /* Highlight color on hover */
 }
 
 /* Social Icons Styling */
 .social-icons {
 	display: flex;
-	justify-content: center; /* Center icons horizontally */
-	align-items: center; /* Align icons vertically within the container */
+	justify-content: center;
+	align-items: center; /* Center icons vertically */
 	margin-top: 10px;
+	gap: 20px; /* Adds space between icons */
 }
 
 .social-icons a {
 	color: #ccc;
 	text-decoration: none;
 	font-size: 50px; /* Increased from 40px */
-	margin: 0 10px;
 	transition: color 0.3s ease;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 .social-icons a:hover {
@@ -76,12 +51,20 @@
 }
 
 .social-link svg {
-	width: 30px; /* Increased from 10px */
-	height: 30px; /* Increased from 15px */
+	width: 40px; /* Increased from 30px */
+	height: 40px; /* Increased from 30px */
 }
 
-/* Ensure footer container spans full width to properly align items */
-.footer-container {
-	width: 100%;
+/* Footer Text Styling */
+.footer-text {
+	margin-top: 20px;
+	font-size: 14px;
+	color: #ccc;
 }
 
+/* Hide Footer on Scroll */
+.footer-container.hidden {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0.3s, opacity 0.3s ease-in-out;
+}
