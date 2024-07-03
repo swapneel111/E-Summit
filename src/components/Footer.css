@@ -19,10 +19,13 @@
 
 /* Footer Container Styling */
 .footer-container {
-	background-color:transparent;
+	background-color: transparent;
 	color: #fff;
 	padding: 20px 10px;
 	text-align: center;
+	display: flex;
+	flex-direction: column; /* Ensures content stacks vertically */
+	align-items: center; /* Centers content horizontally */
 }
 
 /* Footer Links Styling */
@@ -47,8 +50,9 @@
 /* Social Icons Styling */
 .social-icons {
 	display: flex;
-	justify-content: center;
-	margin-top: 20px;
+	justify-content: center; /* Center icons horizontally */
+	align-items: center; /* Align icons vertically within the container */
+	margin-top: 10px;
 }
 
 .social-icons a {
@@ -57,6 +61,9 @@
 	font-size: 50px; /* Increased from 40px */
 	margin: 0 10px;
 	transition: color 0.3s ease;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .social-icons a:hover {
@@ -72,3 +79,9 @@
 	width: 30px; /* Increased from 10px */
 	height: 30px; /* Increased from 15px */
 }
+
+/* Ensure footer container spans full width to properly align items */
+.footer-container {
+	width: 100%;
+}
+
