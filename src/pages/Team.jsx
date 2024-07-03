@@ -150,14 +150,13 @@ export default function Team() {
   <div class="property-card">
     <a href="/">
       <div class="property-image8">
-        <div class="property-image-title">
-        
+        <div class="property-image-title">        
         </div>
       </div></a>
     <div class="property-description">
       <h5>Saranya Chattopadhyay</h5>
-      <p>Corporate Relations Lead</p>
-      <a href="https://www.linkedin.com/in/saranya-chattopadhyay-06a153230?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="linklogo" src={linklogo} alt=""/></a>
+      <p>Social Relations Head</p>
+      <a href="https://www.linkedin.com/in/swapneel-chaudhuri-168ba226b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="linklogo" src={linklogo} alt=""/></a>
     </div>
     <a href="/">
     </a>
