@@ -165,7 +165,7 @@ export default function Team() {
 <div class="center">
   <div class="property-card">
     <a href="/">
-      <div class="property-image12">
+      <div class="property-image13">
         <div class="property-image-title">
         
         </div>
